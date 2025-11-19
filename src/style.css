@@ -7,6 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 .card-container {
@@ -45,9 +46,7 @@ body{
     font-size: 10rem;
 }
 
-.card.hearts .upper-suit,
-.card.hearts .lower-suit,
-.card.diamonds .upper-suit,
-.card.diamonds .lower-suit {
-  color: red;
+#new-card {
+    margin-top: 2rem;
+   padding: 0.5rem 3rem;
 }
